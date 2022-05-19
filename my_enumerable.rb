@@ -1,4 +1,4 @@
-module My_Enumerable 
+module MyEnumerable 
 	def all?
 		check_arr = []
 		@list.each {|num| check_arr.push(num) if yield num} 

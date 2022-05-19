@@ -1,10 +1,10 @@
 require_relative './my_enumerable.rb'
 
-class My_List
+class MyList
   def initialize(*list)
       @list = list
   end
-include My_Enumerable
+include MyEnumerable
 
   def each
     i=0 
@@ -16,4 +16,4 @@ include My_Enumerable
   end
 end
 
-test = My_List.new(1,2,3,4)
+test = MyList.new(1,2,3,4)
