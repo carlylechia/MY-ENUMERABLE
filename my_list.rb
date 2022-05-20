@@ -27,5 +27,3 @@ puts(list.any? { |e| e == 2 })
 
 puts(list.any? { |e| e == 5 })
 
-puts(list.filter(&:even?))
-list.each { |e| puts e * e }
